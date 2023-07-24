@@ -1,0 +1,97 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+/* background color:green; */
+}
+.content h1{
+	font-size:50px!important;
+}
+.view buton{
+	display:inline-block;
+	line-height:45px;
+	border-radius:5px;
+	color:white;
+}
+.butnicon a{
+	background-color:#6F6B80;
+	height:45px;
+	width:45px;
+}
+	.grat li a{
+             text-decoration:none;
+			 color:white;
+	}			 
+	.grat li{
+		 list-style:none;
+	}
+	
+	.search{
+		position:relative!important;
+	}
+	.position-absolute{
+		position:absolute!important;
+        top:10px;
+	}
+	.kalai:hover img {
+	transform:scale(1.1);}
+	.footerlast li{
+		list-style:none;
+	}
+	.footerlast li a{
+		    text-decoration:none;
+			color:white;
+	}
+	.sticker{
+		background-color:gray;
+		height:60px;
+		width:60px;
+		align-items:center;
+		justify-content:center;
+		border-radius:50%;
+		display:flex;
+		flex:0 0 auto;
+		
+		
+		
+	}
+	.parent a{
+		display:flex;
+		height:40px;
+		width:40px;
+		align-items:center;
+		justify-content:center;
+		border-radius:50%;
+		background-color:gray;
+		text-decoration:none;
+		
+	}
+	.grat a:hover{
+		color:blue;
+		}
+		.footerlast li a:hover{
+			color:blue;
+		}
+		.parent a:hover{
+			background-color:blue;
+		}
+		.accordion-button::after{
+			content:"\f067"!important;
+			background-image:none!important;
+			font:normal normal normal 14px/1 FontAwesome;
+		}
+		.accordion-button:not(.collapsed)::after{
+			content:"\f068"!important;
+			background-image:none!important;
+			 font:normal normal normal 14px/1 FontAwesome;
+		}
+		
+		 
+	
+		.search button:hover{
+			 background-color:dark blue;
+			 color:white;
+		}
+		.accordion-button:not(.collapsed) {
+			box-shadow:none !important;
+		}
